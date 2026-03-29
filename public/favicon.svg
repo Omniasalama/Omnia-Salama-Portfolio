@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="250" viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="osGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C6FF"/>
+      <stop offset="100%" stop-color="#6A11CB"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="white"/>
+
+  <!-- O Shape -->
+  <circle cx="150" cy="110" r="60"
+          stroke="url(#osGradient)"
+          stroke-width="12"
+          fill="none"/>
+
+  <!-- Code Symbol -->
+  <text x="150" y="120"
+        text-anchor="middle"
+        font-size="40"
+        font-family="Courier New, monospace"
+        fill="url(#osGradient)">
+    &lt;/&gt;
+  </text>
+
+  <!-- S Letter -->
+  <text x="230" y="140"
+        font-size="110"
+        font-weight="bold"
+        font-family="Arial, sans-serif"
+        fill="url(#osGradient)">
+    S
+  </text>
+
+  <!-- Name -->
+  <text x="250" y="200"
+        text-anchor="middle"
+        font-size="26"
+        font-family="Arial, sans-serif"
+        fill="#333">
+    Omnia Salama
+  </text>
+
+  <!-- Subtitle -->
+  <text x="250" y="225"
+        text-anchor="middle"
+        font-size="14"
+        letter-spacing="3"
+        font-family="Arial, sans-serif"
+        fill="#777">
+    WEB DEVELOPER
+  </text>
+
+</svg>
