@@ -14,7 +14,7 @@ A modern, dark-themed React portfolio for Front-End Developer Omnia Salama.
 
 ## Features
 
-- 🌑 Dark editorial aesthetic with electric emerald (#0070FF) 
+- 🌑 Dark editorial aesthetic with cyan 
 - 📱 Fully responsive (mobile, tablet, desktop)
 - ✨ Scroll-triggered animations on all sections
 - 🔄 Smooth SPA routing with active state indicators
