@@ -49,18 +49,20 @@ export default function About() {
           <div className="space-y-5 text-muted leading-relaxed">
             <p>
               I'm <span className="text-text font-500">Omnia Salama</span>, a
-              passionate Front-End Developer based in{" "}
+              passionate MEARN Developer based in{" "}
               <span className="inline-flex items-center gap-1 text-text">
                 <MapPin size={13} /> Alexandria, Egypt
               </span>
               . I graduated with a degree in Management Information Systems from
-              Alexandria University, where I developed a deep interest in how
-              technology shapes user experiences.
+              Faculty of Business, Alexandria University, where I developed a
+              deep interest in how technology shapes user experiences.
             </p>
             <p>
               My journey into front-end development started with the
               fundamentals — HTML, CSS, JavaScript — and quickly evolved into
               mastering modern frameworks like{" "}
+              <span className="text-cyan-400">Node js</span>,{" "}
+              <span className="text-cyan-400">React</span>,{" "}
               <span className="text-cyan-400">Angular</span> and tooling like{" "}
               <span className="text-cyan-400">Tailwind CSS</span> and{" "}
               <span className="text-cyan-400">TypeScript</span>.
@@ -82,10 +84,10 @@ export default function About() {
                 label: "Education",
                 value: "MIS — Alexandria University (2024)",
               },
-              { label: "Specialization", value: "Front-End Development" },
+              { label: "Specialization", value: "MEARN Development" },
               {
                 label: "Primary Stack",
-                value: "Angular + NodeJS",
+                value: "Angular + React + NodeJS ",
               },
               { label: "Email", value: "omniamsalama25@gmail.com" },
               { label: "Status", value: "Open to Opportunities" },
@@ -110,7 +112,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="border-t border-white/10 py-20 bg-accent/5 shadow-[inset_0_0_80px_rgba(0,112,255,0.1)]">
+      <section className="border-t border-white/10 py-20 bg-cyan-700/5 shadow-[inset_0_0_80px_rgba(0,112,255,0.1)]">
         {" "}
         <div className="max-w-7xl mx-auto px-6">
           <div className="animate-on-scroll mb-14">

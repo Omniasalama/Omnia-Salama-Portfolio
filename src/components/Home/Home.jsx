@@ -38,7 +38,6 @@ export default function Home() {
   const featuredProjects = projects.filter((p) => p.featured);
 
   useEffect(() => {
-    // Cursor glow effect
     const hero = heroRef.current;
     if (!hero) return;
     const handleMove = (e) => {
@@ -130,7 +129,7 @@ export default function Home() {
               style={{ transitionDelay: "200ms" }}
             >
               <p className="font-display font-400 text-muted text-lg md:text-xl tracking-[0.15em] uppercase">
-                Front-End Developer{" "}
+                MEARN Developer{" "}
                 <span className="text-cyan-400 mx-3">|</span> Alexandria, Egypt
               </p>
             </div>
@@ -143,8 +142,9 @@ export default function Home() {
               <p className="text-muted text-lg leading-relaxed">
                 Passionate about crafting clean, responsive, and user-friendly
                 web experiences. Specialized in{" "}
+                <span className="text-text">Nodejs</span>,
                 <span className="text-text">Angular</span>,{" "}
-                <span className="text-text">TypeScript</span>, and modern
+                <span className="text-text">React</span>, and modern
                 frontend ecosystems.
               </p>
             </div>
